@@ -14,3 +14,6 @@ let numLives = 9;
 numLives -= 1;
 numLives--; decrement
 numLives++; increment
+
+the const keyword arguments that doesn't change.
+const countNum = 1;
