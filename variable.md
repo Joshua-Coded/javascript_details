@@ -21,3 +21,13 @@ numLives++; increment
 
 the const keyword arguments that doesn't change.
 const countNum = 1;
+
+
+Naming convention
+
+* use camel case for naming javascript variables names
+* never start a javascript variables name with a digit
+* use underscore in place of camel case
+* make sure your names are understandable by users.
+* 
+
