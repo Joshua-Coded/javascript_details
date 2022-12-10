@@ -42,3 +42,26 @@ let favAnimal = "Dumbo Octopus";
 let username = "your name";
 
 you can use both double quotes and single quotes
+
+** Strings are indexed. 
+every characters in the string starts from 0.
+accessing the string, YOU CAN use a square bracket before the variable name.
+
+
+** String Methods **
+methods are built in actions we can perform with individual variables Strings
+they help us do things like:
+    searching within a string
+    replacing part of a string
+    changing the casing of a string
+
+    syntax of the string methods
+    
+    thing.method()
+     
+    common methods
+    
+    toLowerCase()
+    toUpperCase()
+    Trim() for removing whitespaces
+    
