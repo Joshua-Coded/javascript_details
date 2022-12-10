@@ -23,3 +23,7 @@ decimal number types
 50 7 3.98 -634 are all number types.
 
 <------------>
+NAN -- NOT A NUMBER
+is a numeric value that represents something that is not a number.
+it is considered a number by javascript.
+consider writing typeof NaN in the console ans see what you will get.
