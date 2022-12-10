@@ -11,3 +11,15 @@ Undefined
 Technically there are two other primitive types
 ** symbol and bigint
 
+<------->
+
+1. Number types
+javascript have one number type
+positive number types
+negative number types
+whole number types
+decimal number types
+
+50 7 3.98 -634 are all number types.
+
+<------------>
