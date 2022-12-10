@@ -64,4 +64,16 @@ they help us do things like:
     toLowerCase()
     toUpperCase()
     Trim() for removing whitespaces
-    
+
+
+** String Methods arguments **
+some methods accept arguments that modify their behavior.
+think of them as input we can pass in.
+we pass these arguments inside the parentheses.
+
+thing.method(arg)
+example
+indexof(arg)
+slice(arg)
+replace(arg)
+repeat(arg)
