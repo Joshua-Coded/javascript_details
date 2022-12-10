@@ -29,3 +29,7 @@ is a numeric value that represents something that is not a number.
 it is considered a number by javascript.
 consider writing typeof NaN in the console ans see what you will get.
 
+
+2. variables are like labels for values.
+we can store a value and give it a name so that we can refer back to it late, 
+use that value to do ..stufff, or change it later on.
