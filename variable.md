@@ -1,3 +1,7 @@
+variables are like labels for values.
+we can store a value and give it a name so that we can refer back to it late, 
+use that value to do ..stufff, or change it later on.
+
 making variables
 
 let score = 0;
