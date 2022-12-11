@@ -81,3 +81,8 @@ repeat(arg)
 ** String Template Literals **
 To use the string Literals make use of the back tick character with curly brackets.
 ` I counted {3 +5 } `
+
+
+** Null and undefined **
+Null: intentional absence of a value, must be assigned
+Undefined: variables that do not have an assigned value
