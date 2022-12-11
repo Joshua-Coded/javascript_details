@@ -77,3 +77,7 @@ indexof(arg)
 slice(arg)
 replace(arg)
 repeat(arg)
+
+** String Template Literals **
+To use the string Literals make use of the back tick character with curly brackets.
+` I counted {3 +5 } `
