@@ -1,14 +1,3 @@
-// const dayOfWeek = "Friday";
-
-// if(dayOfWeek === "Monday") {
-//     console.log("i hate mondays")
-// }
-// else if(dayOfWeek === "Saturday") {
-//     console.log("i love saturdays")
-// }
-// else if(dayOfWeek === "Friday") {
-//     console.log("i love Fridays, they are decent after work.")
-// }
 
 // 0-5 - free
 // 5-10 - child $10
