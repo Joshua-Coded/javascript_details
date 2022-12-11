@@ -86,3 +86,17 @@ To use the string Literals make use of the back tick character with curly bracke
 ** Null and undefined **
 Null: intentional absence of a value, must be assigned
 Undefined: variables that do not have an assigned value
+
+
+** TRUTHY AND FALSY VALUES **
+All JS values have an inherit truthyness and falsyness about them.
+
+Falsy values are::
+FALSE
+0
+" " EMPTY String
+ Null
+ Undefined
+ NAN
+
+....... ** EVERYTHING ELSE IS TRUTHY!! ** ......  
