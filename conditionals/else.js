@@ -1,12 +1,12 @@
- const dayOfWeek = prompt("enter a day of the week")
+const dayOfWeek = prompt("enter a day of the week")
 
- if(dayOfWeek === "Monday") {
+if(dayOfWeek === "Monday") {
      console.log("i hate mondays")
  } 
- else if(dayOfWeek === "Saturday") {
+else if(dayOfWeek === "Saturday") {
      console.log("i love saturdays")
  } 
- else if(dayOfWeek === "Friday") {
+else if(dayOfWeek === "Friday") {
     console.log("i love Fridays, they are decent after work.")
  } 
 else {
