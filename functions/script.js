@@ -35,12 +35,21 @@ For example, rant("I hate beets") should print
 // function simpleInterest(p, r, t)
 
 
-function simpleInterest(p, r, t) {
-    let si = (p * r * t) / 100;
-    return si;
-};
+// function simpleInterest(p, r, t) {
+//     let si = (p * r * t) / 100;
+//     return si;
+// };
 
 // execution
 
-console.log(simpleInterest(1000, 5, 2));
-console.log(simpleInterest(1000, 6.7, 3));
+// console.log(simpleInterest(1000, 5, 2));
+// console.log(simpleInterest(1000, 6.7, 3));
+
+
+// functions with no parameters
+function showCity(){
+    console.log('Hyderabad');
+    console.log('Hydera');
+}
+
+showCity();
