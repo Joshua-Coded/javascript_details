@@ -47,9 +47,27 @@ For example, rant("I hate beets") should print
 
 
 // functions with no parameters
-function showCity(){
-    console.log('Hyderabad');
-    console.log('Hydera');
+
+// calling a function in another function
+// function showCity(){
+//     console.log('Hyderabad');
+//     showCountry();
+// }
+
+// function showCountry(){
+//     console.log('Rwanda');
+// }
+
+// showCity();
+
+function square(n) {
+    return n * n;
 }
 
-showCity();
+function cube(n) {
+    return n * n * n;
+}
+
+console.log(cube(100));
+console.log(square(100));
+console.log(cube(square(3)))
