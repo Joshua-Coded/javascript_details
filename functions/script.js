@@ -72,13 +72,28 @@ For example, rant("I hate beets") should print
 // console.log(square(100));
 // console.log(cube(square(3)))
 
-function getCartBill() {
-    let sum = 0;
-    for(let i = 0; i < arguments.length; i++) {
-    sum = sum + arguments[i];
-}
-return sum;
+// function getCartBill() {
+//     let sum = 0;
+//     for(let i = 0; i < arguments.length; i++) {
+//     sum = sum + arguments[i];
+// }
+// return sum;
+// }
+
+// console.log(getCartBill(13))
+// console.log(getCartBill(13, 15, 120, 5, 30))
+
+//recursional
+
+
+function factorial(n) {
+    if(n == 1) {
+        return 1
+    }
+    else 
+    {
+       return factorial(n-1) * n;
+    }
 }
 
-console.log(getCartBill(13))
-console.log(getCartBill(13, 15, 120, 5, 30))
+console.log(factorial(5))
