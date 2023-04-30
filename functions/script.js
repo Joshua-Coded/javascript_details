@@ -86,14 +86,27 @@ For example, rant("I hate beets") should print
 //recursional
 
 
-function factorial(n) {
-    if(n == 1) {
-        return 1
-    }
-    else 
-    {
-       return factorial(n-1) * n;
-    }
+// function factorial(n) {
+//     if(n == 1) {
+//         return 1
+//     }
+//     else 
+//     {
+//        return factorial(n-1) * n;
+//     }
+// }
+
+// console.log(factorial(5))
+
+
+// function that calculates net price based on the
+
+
+function getNetPrice(price, tax) {
+    let result = price + (price * tax / 100);
+    return result;
 }
 
-console.log(factorial(5))
+console.log(getNetPrice(1000, 10));
+
+
