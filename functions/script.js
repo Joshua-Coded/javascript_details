@@ -73,10 +73,12 @@ For example, rant("I hate beets") should print
 // console.log(cube(square(3)))
 
 function getCartBill() {
+    let sum = 0;
     for(let i = 0; i < arguments.length; i++) {
-    console.log(arguments[i])
+    sum = sum + arguments[i];
 }
+return sum;
 }
 
-getCartBill(13)
-getCartBill(13, 15, 120, 5)
+console.log(getCartBill(13))
+console.log(getCartBill(13, 15, 120, 5, 30))
