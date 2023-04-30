@@ -60,14 +60,23 @@ For example, rant("I hate beets") should print
 
 // showCity();
 
-function square(n) {
-    return n * n;
+// function square(n) {
+//     return n * n;
+// }
+
+// function cube(n) {
+//     return n * n * n;
+// }
+
+// console.log(cube(100));
+// console.log(square(100));
+// console.log(cube(square(3)))
+
+function getCartBill() {
+    for(let i = 0; i < arguments.length; i++) {
+    console.log(arguments[i])
+}
 }
 
-function cube(n) {
-    return n * n * n;
-}
-
-console.log(cube(100));
-console.log(square(100));
-console.log(cube(square(3)))
+getCartBill(13)
+getCartBill(13, 15, 120, 5)
