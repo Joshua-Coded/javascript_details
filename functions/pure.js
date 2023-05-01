@@ -11,17 +11,34 @@
 
 // callback functions
 
-function callBack1(name, age){
-    console.log(`Name is ${name}, age is ${age}`)
+// function callBack1(name, age){
+//     console.log(`Name is ${name}, age is ${age}`)
+// }
+
+// function callBack2(name) {
+//     console.log(`Name is ${name}`)
+// }
+
+// function doWork(name, age, myFunctionRef) {
+//     name = "Doc" + name;
+//     age++;
+//     myFunctionRef(name, age)
+// }
+// doWork("Joshua", 21, callBack2);
+
+
+function myGender(boy, girl) {
+    console.log(`Gender is ${boy}, and  ${girl}`)
 }
 
-function callBack2(name) {
-    console.log(`Name is ${name}`)
+function singleGender(boy){
+    console.log(`Gender is ${boy}`)
 }
 
-function doWork(name, age) {
-    name = "Doc" + name;
-    age++;
-    callBack2(name)
+function getGender(boy, girl, gender){
+    boy = "He" + "" + boy;
+    girl = "She" + "" + girl;
+    gender(boy, girl)
 }
-doWork("Joshua", 21);
+
+getGender("Alana", "Lydia", myGender)
