@@ -102,7 +102,7 @@ For example, rant("I hate beets") should print
 // function that calculates net price based on the
 
 
-function getNetPrice(price, tax) {
+function getNetPrice(price, tax = 18) {
     let result = price + (price * tax / 100);
     return result;
 }
