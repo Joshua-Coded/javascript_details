@@ -36,9 +36,9 @@ function singleGender(boy){
 }
 
 function getGender(boy, girl, gender){
-    boy = "He" + "" + boy;
-    girl = "She" + "" + girl;
+    boy = "He " + boy;
+    girl = "She "+ girl;
     gender(boy, girl)
 }
 
-getGender("Alana", "Lydia", myGender)
+getGender("momo", "james", singleGender)
