@@ -1,25 +1,23 @@
 const student1 = {
-    name: "John",
-    section: "B"
+    name: 'Student',
+    age: 13,
+    section: 'A'
 };
 
 const student2 = {
-    name: "John",
-    section: "B"
+    name: 'Teacher',
+    age: 20,
+    section: 'B'
 };
 
-// our method function
-
-function calculateStudentMarks(subject1, subject2, subject3) {
+function calculateTotalMarks(subject1, subject2,subject3) {
     let totalMarks = subject1 + subject2 + subject3;
-    let messages = `Hello ${this.name}, Your total marks is ${totalMarks}`;
+    let messages = `Hello ${this.name}, your total marks is ${totalMarks}`;
     console.log(messages);
 }
 
-const calculate = calculateStudentMarks.bind(student1);
-calculate(40, 80, 100);
+let calculate = calculateTotalMarks.bind(student1);
+calculate(20, 32, 74754);
 
-
-const calculate2 = calculateStudentMarks.bind(student2);
-calculate2(50, 90, 130);
-// calculateStudentMarks.apply(student2, [40, 80, 100]);
+let calculate2 = calculateTotalMarks.bind(student2);
+calculate2(43, 545,656);
