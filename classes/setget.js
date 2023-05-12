@@ -17,6 +17,7 @@
 class Person {
     #personName;
     #age;
+    #title = "Mr.";
 
     // personName - set and get
     setPersonName(value) {
@@ -38,7 +39,7 @@ class Person {
 // end of set method
 
     getPersonName() {
-            return this.#personName
+            return `${this.#title} ${this.#personName}`;
     }
 
     // age set method
