@@ -1,7 +1,10 @@
 // always use the arguments keyword when you are not sure of the input from users.
 
 function getCardBill(){
-    console.log(arguments);
+    for(let i = 0; i < arguments.length; i++){
+        console.log(arguments[i]);
+    }
+    // console.log(arguments);
 }
 
 getCardBill(12,43);
